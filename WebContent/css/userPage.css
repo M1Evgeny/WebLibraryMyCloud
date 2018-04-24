@@ -1,0 +1,28 @@
+@charset "UTF-8";
+html, body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", sans-serif;
+}
+
+.w3-sidebar {
+	z-index: 3;
+	width: 250px;
+	top: 43px;
+	bottom: 0;
+	height: inherit;
+}
+.w3-main {
+	width: 1250px;
+	top: 43px;
+	bottom: 0;
+	height: 750px;
+}
+.color.button {
+  -webkit-animation-name: colorPulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes colorPulse {
+ from { background-color: #6a5acd; -webkit-box-shadow: 0 0 9px #333; }
+  50% { background-color: rgb(251, 19, 105); -webkit-box-shadow: 0 0 18px #91bd09; }
+  to { background-color: #6a5acd; -webkit-box-shadow: 0 0 9px #333; }
+}
